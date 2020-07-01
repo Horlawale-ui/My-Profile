@@ -12,7 +12,7 @@
     }
 
     .site-main .site-banner .site-title h1{
-        font-size: 41px;
+        font-size: 20px;
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
@@ -22,11 +22,9 @@
     .site-main > .services-area .services{
         width: 13rem;
     }
-
 }
 
-
-/* if the viewport is equal to 340px or less than that */ 
+/* if the viewport is equal to 792px or less than that */ 
 @media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
@@ -59,8 +57,50 @@
         width: 20rem;
         margin: 5%;
     }
+    .site-main .site-banner .banner-images > img{
+        width: 100%;
+    }
+    .site-main .site-banner .banner-images{
+        width: 40%;
+        position: absolute;
+        left: 60%;
+    }
+    .site-main .site-banner .site-title h3::after{
+        width: 60%;
+    }
+    .site-main .site-banner .site-title{
+        width: 60%;
+        float: left;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 2rem;
+    }
+    .site-main .site-banner .site-title h4{
+        font-size: 1rem;
+    }
+    .site-main .site-banner .site-title .button{
+        padding: .8rem 1.2rem;
+    }
+    .site-main .about-area .about-title .paragraph{
+        width: 100%;
+    }
+    .about-area .container-fluid .about-image{
+        display: none;
+    }
+    .site-main .brand-area .experience-area{
+        padding-left: 20%;
+    }
+    footer.footer-area{
+        padding: 0 0 5rem;
+    }
+    .site-main .subscribe-us-area .subscribe{
+        padding: 10rem 0 5rem;
+        margin: 3rem auto 0;
+    }
+    .site-main .subscribe-us-area .subscribe form .btn-submit button{
+        margin: 4.5rem 0 0;
+    }
 }
-
 
 
 /* if the viewport is equal to 1910px or less than that */ 
@@ -78,6 +118,5 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
-
 
 }

@@ -41,9 +41,12 @@ padding: 0 2rem 0 5rem;
 background: url(../images/banner/home-banner.png) no-repeat 0% 40%;
 color: black;
 }
-
+.site-main .site-banner .container {
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 3rem;
     font-weight: 500;
 }
 .site-main .site-banner .site-title h3::after{
@@ -56,12 +59,12 @@ color: black;
     transform: translateY(-10px);
 }
 .site-main .site-banner .site-title h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
 }
 .site-main .site-banner .banner-images >img{
-    padding: 7rem 0;
     width: 30rem;
 }
 
@@ -78,8 +81,8 @@ color: black;
     font: normal bold 49px/60px var(--roboto);
     letter-spacing: 21px;
 }
-.site-main .about-area .about-title .paragraph > p{
-
+.site-main .about-area .about-title .paragraph{
+    width: 75%;
 }
 /*------end about areas-----*/
 
@@ -164,6 +167,7 @@ padding: 0 14rem;
     background: rgba(248,252,253,0.973);
     padding: 2rem 0;
     width: 16rem;
+    height: 25rem;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
 }
@@ -176,7 +180,7 @@ padding: 0 14rem;
     padding: 4rem 0;
 }
 .site-main .project-area .carousel-inner .carousel-item {
-    background-color: #f4f4f4;;
+    background-color: #1c2352;;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
 }
@@ -193,42 +197,10 @@ padding: 0 14rem;
 
 /*------ End portfolio areas-----*/
 
-/*------ Client Testimoinal areas-----*/
-.site-main .about-me .about-title p{
-    padding: 1rem 7rem;
-}
-.site-main .about-me .client{
-    background: #ffffff10;
-    box-shadow: var(--box-shadow);
-    margin: 3rem 0rem;
-}
-.site-main .about-me .client .client-img{
-    padding: 2rem;
-}
-.site-main .about-me .client .about-client{
-    padding-top: 2rem;
-}
-.site-main .about-me .client .about-client h4{
-    font: normal 500 21px/20px var(--roboto);
-}
-.site-main .about-me .client .about-client p{
-    font-size: 14px;
-}
-.site-main .about-me .owl-carousel .owl-item{
-    display: flex;
-    justify-content: center;
-    padding: 0 1.5rem;
-}
-.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
-    background: var(--primary-color);
-    width: 12px;
-    height: 12px;
-}
-/*------End Client Testimoinal areas-----*/
 /*------Subscribe  areas-----*/
 .site-main .subscribe-us-area .subscribe{
     background: url(../images/subscribe-bg.png) no-repeat;
-    padding: 10rem 0;
+    padding: 10rem 5rem;
     margin: 3rem auto;
 }
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
@@ -252,10 +224,14 @@ padding: 0 14rem;
     color: whitesmoke;
 }
 
+.site-main .subscribe-us-area .subscribe form .btn-submit{
+    width: 25%;
+}
 .site-main .subscribe-us-area .subscribe form .btn-submit button{
     background: whitesmoke;
     color: #000;
     padding: .7rem 2rem;
+    margin: 4.5rem 6rem 0 0;
 }
 /*------End Subscribe  areas-----*/
 /* Footer Area */ 
@@ -279,3 +255,16 @@ footer.footer-area .social a:hover > i{
     color: var(--primary-color);
 }
 /* End Footer */ 
+
+/* Conntact from */
+.contact-form{
+    background: url(../images/subscribe-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+.contact-form .parag{
+    color: white;
+}
+/* End Conntact from */ 
